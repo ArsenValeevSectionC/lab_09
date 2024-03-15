@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>lab 09</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&family=Nabla&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+        <div id="filters">
+            <button data-category="all" class="filter_button">All</button>
+            <button data-category="cats" class="filter_button">Cats</button>
+            <button data-category="city" class="filter_button">City</button>
+            <button data-category="stars" class="filter_button">Stars</button>
+        </div>
+    </header>
+    <section id="gallery">
+        <div class="image cats"><img src="images/cat1.jpg" alt="Cat Image"></div>
+        <div class="image cats"><img src="images/cat2.jpg" alt="Cat Image"></div>
+        <div class="image cats"><img src="images/cat3.jpg" alt="Cat Image"></div>
+        <div class="image cats"><img src="images/cat4.jpg" alt="Cat Image"></div>
+        <div class="image cats"><img src="images/cat5.jpg" alt="Cat Image"></div>
+        <div class="image city"><img src="images/city1.jpg" alt="City Image"></div>
+        <div class="image city"><img src="images/city2.jpg" alt="City Image"></div>
+        <div class="image city"><img src="images/city3.jpg" alt="City Image"></div>
+        <div class="image city"><img src="images/city4.jpg" alt="City Image"></div>
+        <div class="image city"><img src="images/city5.jpg" alt="City Image"></div>
+        <div class="image city"><img src="images/city6.jpg" alt="City Image"></div>
+        <div class="image stars"><img src="images/stars1.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars2.webp" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars3.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars4.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars5.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars6.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars7.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars8.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars9.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars10.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars11.jpg" alt="Star Image"></div>
+        <div class="image stars"><img src="images/stars12.jpg" alt="Star Image"></div>
+    </section>
+
+    <div id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" src="" alt="Enlarged Image">
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
